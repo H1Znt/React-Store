@@ -1,0 +1,51 @@
+.shopItem {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-bottom: 0.5vw;
+  list-style: none;
+  border-radius: 0.5vw;
+  max-height: 8vw;
+  font-family: Nunito, sans-serif;
+  padding: 1vw;
+}
+.shopItem__img {
+  max-height: 8vw;
+}
+.shopItem__title {
+  flex-grow: 1;
+  text-align: center;
+}
+.shopItem_subtitle {
+  flex-grow: 1;
+  text-align: center;
+  font-size: smaller;
+  color: gray;
+}
+.shopItem_price {
+  flex-grow: 1;
+  text-align: center;
+  color: red;
+}
+
+.btnText {
+  text-transform: uppercase;
+  color: red;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 3vw;
+  padding: 0.5vw 1.5vw;
+}
